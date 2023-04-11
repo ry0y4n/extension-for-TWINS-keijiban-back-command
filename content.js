@@ -20,7 +20,7 @@ function keyHandler(innerDocument, outerDocument, backButton) {
     // キーハンドラー登録（iframe内のdocumentと外側のdocumentどちらにも登録する必要がある（マウスフォーカスしてる方がよばれる））
     [innerDocument, outerDocument].forEach((document) => {
         document.addEventListener("keydown", (event) => {
-            if (event.metaKey && event.key === 'ArrowLeft') {
+            if ((event.metaKey || event.ctrlKey) && event.key === 'ArrowLeft') {
                 event.preventDefault();
                 backButton.click();
             }
