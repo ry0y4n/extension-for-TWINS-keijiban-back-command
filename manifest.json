@@ -11,6 +11,7 @@
     ],
     "icons": {
         "16": "icon/image-16px.png",
+        "32": "icon/image-32px.png",
         "48": "icon/image-48px.png",
         "128": "icon/image-128px.png"
     }
