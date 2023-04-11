@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "test",
+  "name": "TWINS-Keijiban Back Command",
   "version": "1.0",
-  "description": "hoge",
+  "description": "This is an extension that allows you to use the browser's standard back commands on TWINS keijiban.",
   "content_scripts": [
     {
       "matches": ["https://twins.tsukuba.ac.jp/campusweb/campusportal.do?page=main&tabId=kj"],
